@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Profile Page-->
+    <dimen name="ProfileMarginTop">20dp</dimen>
+    <dimen name="ProfileMarginBottom">20dp</dimen>
+    <dimen name="ProfileMarginLeft">5dp</dimen>
+    <dimen name="ProfileMarginRight">5dp</dimen>
+    <dimen name="ProfileImageViewHeight">100dp</dimen>
+    <dimen name="ProfileImageViewWidth">90dp</dimen>
+
+    <!--Dialog edit profile-->
+    <dimen name="DialogMarginTop">10dp</dimen>
+
+    <!--Side Numbers Small and Large-->
+    <dimen name="QuestionNumberSmall">20sp</dimen>
+    <dimen name="QuestionNumberLarge">50sp</dimen>
+    <!--Question Background Margin-->
+    <dimen name="MarginQuestionBackground">20dp</dimen>
+    <!--Question Background Margin-->
+    <dimen name="MarginIntroQuestionBackground">10dp</dimen>
+    <!--Question Background Margin-->
+    <dimen name="MarginQuestionTextView">25dp</dimen>
+    //end Dialog dimen
+    <dimen name="MarginBottomEndDialogTextView">6dp</dimen>
+
+
+</resources>

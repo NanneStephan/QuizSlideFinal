@@ -1,0 +1,172 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Start Profile Page -->
+
+    <!--Profile Page LinearLayout -->
+    <style name="LinearLayoutProfilePage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!--Profile Page Text View -->
+    <style name="ProfileTextView">
+        <item name="android:textColor">@color/BlackText</item>
+        <item name="android:background">@drawable/profiletextviewbackground</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/ProfileMarginTop</item>
+        <item name="android:layout_marginBottom">@dimen/ProfileMarginBottom</item>
+        <item name="android:layout_marginLeft">@dimen/ProfileMarginLeft</item>
+        <item name="android:layout_marginRight">@dimen/ProfileMarginRight</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!-- Dialog Edit View -->
+    <style name="ProfileEditView">
+        <item name="android:textColor">@color/BlackText</item>
+        <item name="android:background">@drawable/profiletextviewbackground</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/DialogMarginTop</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:inputType">textPersonName</item>
+    </style>
+    <!--Profile Page Image View -->
+    <style name="ProfileImageView">
+        <item name="android:layout_width">@dimen/ProfileImageViewWidth</item>
+        <item name="android:layout_height">@dimen/ProfileImageViewHeight</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/ProfileMarginTop</item>
+        <item name="android:background">@drawable/imageviewbutton</item>
+    </style>
+    <!--Profile Page Edit Profile Button -->
+    <style name="EditProfileButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/profilebuttonbackground</item>
+        <item name="android:onClick">editProfileButton</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:text">@string/profileEdit</item>
+        <item name="android:textColor">@color/YellowButton</item>
+    </style>
+    <!-- End Profile Page -->
+
+    <!-- Dialog Layout transparent -->
+    <style name="NewDialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <!-- Start Quiz Style -->
+
+    <!-- Radio Buttons Quiz -->
+    <style name="RadioButtonQuiz">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/SomeText</item>
+        <item name="android:onClick">onRadioButtonClicked</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+    <!--LinearLayout Radio Buttons Quiz -->
+    <style name="LinearLayoutQuizRadioButton">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <!-- Question Number Small-->
+    <style name="QuestionNumberSmall">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">@dimen/QuestionNumberSmall</item>
+        <item name="android:textColor">@color/QuestionNumberSmall</item>
+    </style>
+    <!-- Question Number Large-->
+    <style name="QuestionNumberLarge">
+        <item name="android:layout_weight">2</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">@dimen/QuestionNumberLarge</item>
+        <item name="android:textColor">@color/QuestionNumberLarge</item>
+    </style>
+    <!-- Question Text View-->
+    <style name="QuestionTextView">
+        <item name="android:layout_below">@+id/QuizQuestionCounter</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">@dimen/MarginQuestionTextView</item>
+        <item name="android:layout_marginTop">@dimen/MarginQuestionTextView</item>
+        <item name="android:layout_marginRight">@dimen/MarginQuestionTextView</item>
+    </style>
+    <!-- TopLine Questions TextView-->
+    <style name="TopLineQuestion">
+        <item name="android:layout_below">@+id/QuizQuestionCounter</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">@dimen/MarginQuestionTextView</item>
+        <item name="android:layout_marginTop">@dimen/MarginQuestionTextView</item>
+        <item name="android:layout_marginRight">@dimen/MarginQuestionTextView</item>
+    </style>
+
+    <!-- Questions Background-->
+    <style name="QuestionBackground">
+        <item name="android:layout_below">@+id/QuizQuestionCounter</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">@dimen/MarginQuestionBackground</item>
+        <item name="android:layout_marginRight">@dimen/MarginQuestionTextView</item>
+        <item name="android:layout_marginTop">@dimen/MarginQuestionBackground</item>
+        <item name="android:background">@drawable/background_question</item>
+    </style>
+    <!-- Previous and Next Buttons-->
+    <style name="PreviousAndNextButtons">
+        <item name="android:textColor">@color/ButtonTextColorPreviousNext</item>
+        <item name="android:background">@drawable/previous_next_button_background</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">@dimen/MarginQuestionBackground</item>
+    </style>
+    <!-- Line Next To the Numbers-->
+    <style name="Line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:layout_marginLeft">@dimen/MarginQuestionBackground</item>
+        <item name="android:layout_marginTop">@dimen/MarginQuestionBackground</item>
+        <item name="android:layout_below">@+id/BackgroundQuestion</item>
+        <item name="android:layout_above">@+id/QuizQuestionCounter</item>
+        <item name="android:background">@color/BlackText</item>
+    </style>
+    //End Dialog
+    //TextView
+    <style name="EndDialogTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/MarginBottomEndDialogTextView</item>
+        <item name="android:textColor">@color/BlackText</item>
+    </style>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E0E0E0</color>
+    <color name="colorPrimaryDark">#9E9E9E</color>
+    <color name="colorAccent">#000000</color>
+    <!--TextColors-->
+    <color name="BlackText">#000000</color>
+    <!--Buttons-->
+    <color name="YellowButton">#FFD600</color>
+    <color name="AmberButton">#FFAB00</color>
+    <color name="OrangeButton">#FF6D00</color>
+    <!-- Background colors quiz -->
+    <color name="YellowBackgroundQuiz">#4dFFD600</color>
+    <color name="AmberBackgroundQuiz">#4dFFAB00</color>
+    <color name="OrangeBackgroundQuiz">#4dFF6D00</color>
+    <!-- Question Number Small and Large -->
+    <color name="QuestionNumberLarge">#FFFFFF</color>
+    <color name="QuestionNumberSmall">#616161</color>
+    <!-- previous en Next -->
+    <color name="ButtonTextColorPreviousNext">#616161</color>
+
+
+</resources>

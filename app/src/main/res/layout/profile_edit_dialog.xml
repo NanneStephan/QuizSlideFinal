@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/dialogbackground">
+
+    <TextView
+        android:id="@+id/DialogHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/BlackText"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/DialogText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/BlackText"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/saveNewProfile"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="saveProfileDialog"
+        android:text="@string/saveProfileEdit"
+        android:textColor="@color/BlackText" />
+
+</LinearLayout>

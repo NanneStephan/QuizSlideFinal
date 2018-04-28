@@ -1,0 +1,102 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">userProfile</string>
+    Start Profile
+    <string name="profileName">Name</string>
+    <string name="ProfileBirthday">Day Of Birth</string>
+    <string name="profileCountry">Country</string>
+    <string name="profileEdit">Start</string>
+    <string name="saveProfileEdit">Start</string>
+    End Profile
+
+    QuizRadioButtons
+    <string name="SomeText">SomeText</string>
+
+    Quiz 1 to 6
+    <string name="One">1</string>
+    <string name="Two">2</string>
+    <string name="Three">3</string>
+    <string name="Four">4</string>
+    <string name="Five">5</string>
+    <string name="Six">6</string>
+
+    previous Next submit button
+    <string name="previous">Previous</string>
+    <string name="Next">Next</string>
+    <string name="submit">Submit</string>
+
+    Hallo UserName Question Line
+    <string name="Hallo">Hallo</string>
+    <string name="name">Name</string>
+
+    dialog
+    <string name="DialogText">Welcome to The Quiz. This Quiz is mainly about Movies and actors. i hope You like it</string>
+
+    Question One
+    <string name="LineOne">The First One here we go.</string>
+    <string name="QuestionOne">This movie is originally from a book, there where 4 movies made of this story(that i found). in 1926, 1930, 1956 and 2010!
+    it involves a ship a captain and a Whale!</string>
+    <string name="AnswerOneQuestionOne">Star Wars</string>
+    <string name="AnswerTwoQuestionOne">Moby Dick</string>
+    <string name="AnswerThreeQuestionOne">Lord of the Rings</string>
+    <string name="AnswerFourQuestionOne">The Matrix</string>
+
+    Question Two
+    <string name="LineTwo">>This one is about Forrest Gump,</string>
+    <string name="QuestionTwo">This one is about Forrest Gump, where did he got shot? hint The million Dollar hit </string>
+    <string name="AnswerOneQuestionTwo">Left shoulder</string>
+    <string name="AnswerTwoQuestionTwo">the pinkie</string>
+    <string name="AnswerThreeQuestionTwo">in his butt</string>
+    <string name="AnswerFourQuestionTwo">he did not get shot</string>
+
+    Question Three
+    <string name="LineThree">Question 3 is about Start Wars.</string>
+    <string name="QuestionThree">What color was Luke Skywalker s light lightsaber?</string>
+    <string name="AnswerOneQuestionThree">Red</string>
+    <string name="AnswerTwoQuestionThree">Blue</string>
+    <string name="AnswerThreeQuestionThree">Green</string>
+    <string name="AnswerFourQuestionThree">Both Green and Blue</string>
+
+    Question Four
+    <string name="LineFour">This one would be about The Big Lebowski.</string>
+    <string name="QuestionFour">What did the called him?</string>
+    <string name="AnswerOneQuestionFour">The Dude</string>
+    <string name="AnswerTwoQuestionFour">The Man</string>
+    <string name="AnswerThreeQuestionFour">The Guy</string>
+    <string name="AnswerFourQuestionFour">Something</string>
+
+    Question Five
+    <string name="LineFive">And the Fifth Question is about Lord Of The Rings.</string>
+    <string name="QuestionFive">Where did Frodo throw the ring into</string>
+    <string name="AnswerOneQuestionFive">River of Peace</string>
+    <string name="AnswerTwoQuestionFive">Elven vally</string>
+    <string name="AnswerThreeQuestionFive">Fire Of Doom</string>
+    <string name="AnswerFourQuestionFive">Mount Doom</string>
+
+    Question Six
+    <string name="LineSix">The Sixth and Last Question is about Dude where s my car </string>
+    <string name="QuestionSix">What was the favorite show of Chester Greenburg, that made him save the Universe?</string>
+    <string name="AnswerOneQuestionSix">Discovery channel</string>
+    <string name="AnswerTwoQuestionSix">National Geographic Channel</string>
+    <string name="AnswerThreeQuestionSix">Animal Planet</string>
+    <string name="AnswerFourQuestionSix">TLC</string>
+
+    end Dialog
+    <string name="summary_name">Name: <xliff:g example="Amy" id="name">%s</xliff:g></string>
+
+    <string name="Dialog_QuestionOne">1: Moby Dick It was</string>
+    <string name="Dialog_QuestionTwo">2: In his Butt you had that</string>
+    <string name="Dialog_QuestionThree">3: Blue and Green You had that </string>
+    <string name="Dialog_QuestionFour">4: The Dude You had that </string>
+    <string name="Dialog_QuestionFive">5: Mount Doom You had that</string>
+    <string name="Dialog_QuestionSix">6: Discovery channel You had that</string>
+
+    <string name="summary_correct">Total Correct: </string>
+    <string name="summary_incorrect">Total Incorrect: </string>
+
+    <string name="introDialog">This is your score</string>
+
+    <string name="thank_you">Thank you!</string>
+    <string name="order_summary_email_subject">Just a Movie Quiz <xliff:g example="Amy" id="name">%s</xliff:g></string>
+
+
+</resources>
